@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class Solution  
+class fibo
 {
 public:
     int fib(int n)
@@ -15,7 +15,7 @@ public:
 
 int main()
 {
-    Solution obj;
+    fibo obj;
     int n = 4;
     cout << "Fibonacci number at position " << n << " is: " << obj.fib(n) << endl;
     return 0;
