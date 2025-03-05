@@ -2,27 +2,18 @@
 using namespace std;
 int main()
 {
-    int n, t1 = 0, t2 = 1, nextTerm;
-    cout << "Enter the number of terms: ";
-    cin >> n;
-
-    cout << "Fibonacci Series: ";
-    for (int i = 0; i < n; i++)
+    int n=12;
+    // cout<<"enter the number for fibo: "<<endl;
+    // cin>>n;
+    int a=0;
+    int b=1;
+    cout<<a<<" "<<b<<" ";
+    for(int i=0;i<=n;i++)
     {
-        if (i == 0 )
-        {
-            cout << t1 << " ";
-            continue;
-        }
-        if (i == 1)
-        {
-            cout << t2 << " ";
-            continue;
-        }
-        nextTerm = t1 + t2;
-        cout << nextTerm << " ";
-        t1 = t2;
-        t2 = nextTerm;
+        int nextnumber = a+b;
+        cout<<nextnumber <<" ";
+        a=b;
+        b=nextnumber;
     }
     return 0;
 }
