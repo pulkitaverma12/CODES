@@ -21,5 +21,12 @@ int main()
     {
         cout<<i<<endl;
     }
+    cout<<"using functions"<<endl;
+    cout<<vec.front()<<endl;
+    cout<<vec.back()<<endl;
+    cout<<vec.at(2)<<endl;  //90 as per the arr starting index is 0
+    cout<<vec.empty()<<endl;
+    vec.clear();
+    cout<<"after clear= "<<vec.size()<<endl;
     return 0;
 }
