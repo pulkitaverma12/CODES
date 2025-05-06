@@ -1,0 +1,33 @@
+#box{
+    background-color: rgb(97, 97, 196);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.heading {
+    color: rgb(147, 73, 160);
+}
+.green-btn{
+    background-color: rgb(56, 135, 56);
+    color:pink;
+}
+p{
+    text-align: left;
+    font-size: 20px;
+    /* text-decoration: rgb(211, 14, 136) underline wavy; */
+    text-decoration: rgb(211, 14, 136) underline dotted;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(147, 108, 108);
+    text-decoration: underline;
+}
+h2{
+    text-decoration: rgb(211, 14, 136) underline solid;
+}
+h3{
+    text-decoration: rgb(211, 14, 136) underline dashed;
+}
+h4{
+    text-decoration: rgb(211, 14, 136) underline double;
+}
