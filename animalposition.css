@@ -1,0 +1,46 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(16, 209, 45, 0.5);
+    border: 2px solid #000000;
+    align-content: center;
+    display: inline-block;
+}
+/* body{
+    background-image: url("https://www.awsfzoo.com/media/Screen-Shot-2021-01-24-at-9.20.25-AM-1024x677.png");
+    background-size: cover;
+} */
+#box1{
+    position: static;
+    background-image: url("https://www.lismore.nsw.gov.au/files/assets/public/v/1/1.-households/4.-pets-and-animals/kitten.jpg?w=1200");
+    background-size: cover;
+}
+#box2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-image: url("https://hips.hearstapps.com/ghk.h-cdn.co/assets/17/30/bernese-mountain-dog.jpg?crop=1.00xw:0.667xh;0,0.213xh&resize=980:*");
+    background-size: cover;
+}
+#box3{
+    position: fixed;
+    top: 50px;
+    right: 100px;
+    background-image: url("https://i.pinimg.com/1200x/f4/6b/56/f46b56d7ee2551c3aada36a67631e6d0.jpg");
+    background-size: cover;
+    
+}
+#box4{
+    position: relative;
+    top: 100px;
+    left: 70px;
+    background-image: url("https://i.pinimg.com/236x/be/de/17/bede177a6815ce8b9bc5162cbd8de4ad.jpg");
+    background-size: cover;
+}
+#box5{
+    position: sticky;
+    top: 150px;
+    right: 100px;
+    background-image: url("https://wallpapers.com/images/hd/cute-baby-animal-pictures-zzdaek1h4l810z9w.jpg");
+    background-size: cover;
+}
