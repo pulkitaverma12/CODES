@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    color: rgb(248, 250, 252);
+}
+#navbar{
+    height: 90px;
+    background-color: rgb(16, 16, 0);
+}
+button{
+    background-color: rgb(168, 185, 10);
+}
+a{
+    margin-right: 90px;
+    text-decoration: none;
+}
+#logo{
+    color: rgb(241, 222, 11);
+    font-size: 30px;
+}
+.contentbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+footer{
+    background-color: rgb(16, 16, 0);
+    height: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    font-size: 20px;
+}
