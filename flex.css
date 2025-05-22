@@ -1,0 +1,52 @@
+#container{
+    width: 800px;
+    height: 400px;
+    display: flex; 
+    /* for(normal left side sift left to rigth) */
+    flex-direction: row;
+    /* for(rigth to left shift)*/
+    /* flex-direction: row-reverse; */
+    /* for(up to down if the contain is of given size it will adjust in given div size) */
+    /* flex-direction: column ; */
+    /* for(down to up) */
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; (starting and ending space is just half of the two box space)*/
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; (same amount of space) */
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+}
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#box1{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+#box2{
+    background-color: rgba(0, 255, 0, 0.5);
+    height: 200px;
+    flex-grow: 3;
+    /* flex-shrink: 2; */
+    /* align-self: flex-end; */
+}
+#box3{
+    background-color: rgba(0, 0, 255, 0.5);
+    height: 75px;
+}
+#box4{
+    background-color: rgba(255, 255, 0, 0.5);
+    /* align-self:flex-end; */
+}
+#box5{
+    background-color: rgba(255, 0, 255, 0.5);
+    /* align-self: flex-end; */
+}
