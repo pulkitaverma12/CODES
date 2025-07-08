@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amazon Fashion Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+
+    <!-- Top Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand">amazon.in</a>
+
+            <!-- Address -->
+            <div class="d-flex align-items-center text-white me-3" style="cursor: pointer;">
+                <img src="https://img.icons8.com/ios-filled/20/ffffff/marker.png" alt="location">
+                <div class="ms-2">
+                    <div style="font-size: 12px;">Delivering to Raipur 492013</div>
+                    <div style="font-size: 13px; font-weight: 500;">Update location</div>
+                </div>
+            </div>
+
+            <!-- Search -->
+            <form class="d-flex mx-auto" style="width: 400px;">
+                <input class="form-control rounded-0 rounded-start" type="search" placeholder="Search Amazon.in">
+                <button class="btn btn-warning rounded-0 rounded-end" type="submit">🔍</button>
+            </form>
+
+            <!-- Language Dropdown -->
+            <div class="dropdown">
+                <a class="btn btn-dark dropdown-toggle d-flex align-items-center" href="#" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://flagcdn.com/w20/in.png" alt="India" width="20" height="15" class="me-2">
+                    <span style="font-size: 14px;">EN</span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">English-EN</a></li>
+                    <li><a class="dropdown-item" href="#">Hindi-HI</a></li>
+                    <li><a class="dropdown-item" href="#">Marathi-MR</a></li>
+                    <li><a class="dropdown-item" href="#">Bengali-BN</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Fashion Navbar inside box -->
+    <div class="container-fluid bg-white shadow mt-2">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold text-dark" href="#">AMAZON FASHION</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav w-100 d-flex justify-content-between text-center">
+                        <li class="nav-item flex-fill"><a class="nav-link text-dark" href="#">Women</a></li>
+                        <li class="nav-item flex-fill"><a class="nav-link text-dark" href="#">Men</a></li>
+                        <li class="nav-item flex-fill"><a class="nav-link text-dark" href="#">Kids</a></li>
+                        <li class="nav-item flex-fill"><a class="nav-link text-dark" href="#">Bags</a></li>
+                        <li class="nav-item flex-fill"><a class="nav-link text-dark" href="#">Sportswear</a></li>
+                        <li class="nav-item flex-fill"><a class="nav-link text-dark" href="#">Deals</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Banner -->
+    <div class="container my-4">
+        <img src="https://m.media-amazon.com/images/G/31/IMG25/Fashion/Event/Primeday/Teaser/GoldLaunches/Header/Pc/PD25_Deals-Header_Gold-New-Launch_PC_V2._CB791156721_.jpg"
+            alt="Shop now" class="img-fluid w-100" style="max-height: 400px; object-fit: cover;">
+    </div>
+
+    <!-- Cards Section -->
+    <div class="container mb-5">
+        <h4 class="mb-4">🔥 Hot Deals on Fashion</h4>
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVucyUyMGphY2tldHxlbnwwfHwwfHx8MA%3D%3D"
+                        class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">Men's Jacket</h5>
+                        <p class="card-text text-muted">Stylish winter jacket with 30% off.</p>
+                        <a href="#" class="btn btn-warning w-100">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="https://images.unsplash.com/photo-1559563458-527698bf5295?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhhbmRiYWd8ZW58MHx8MHx8fDA%3D"
+                        class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">Women's Handbag</h5>
+                        <p class="card-text text-muted">Trendy bags with exclusive offers.</p>
+                        <a href="#" class="btn btn-warning w-100">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="https://images.unsplash.com/photo-1601925240970-98447486fcdb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8a2lkcyUyMHdlYXJ8ZW58MHx8MHx8fDA%3D"
+                        class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">Kid's Wear</h5>
+                        <p class="card-text text-muted">Comfortable & colorful outfits for kids.</p>
+                        <a href="#" class="btn btn-warning w-100">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to top -->
+    <a id="backToTop" href="#" aria-label="Back to top"
+        class="d-block text-center py-3 bg-secondary text-light text-decoration-none">
+        <div class="fw-bold">Back to top</div>
+    </a>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light pt-5 pb-4">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-4">
+                <div class="mb-4">
+                    <h5>Get to Know Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">About Amazon</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Careers</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Press Releases</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Amazon Science</a></li>
+                    </ul>
+                </div>
+                <div class="mb-4">
+                    <h5>Connect with Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Facebook</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Twitter</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="mb-4">
+                    <h5>Make Money with Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Sell on Amazon</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Affiliate Program</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Global Selling</a></li>
+                    </ul>
+                </div>
+                <div class="mb-4">
+                    <h5>Let Us Help You</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Your Account</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Returns Centre</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">App Download</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center border-top border-light pt-3 mt-4 small">
+                © 2025 Amazon Clone — All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
